@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ZapNovel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <img src="../mywebsite/images/Logo.png" alt="Logo" class="logo">
+            <h1>Welcome to the ZapNovel</h1>
+            </div>
+    </header>
+
+    <section class="welcome-section">
+        <div class="container">
+            <p class="welcome-text">Welcome to ZapNovel! At ZapNovel, we're passionate about connecting readers with unforgettable stories. Whether you're a fan of epic adventures, heartwarming tales, or mind-bending mysteries, our curated selection of Webnovels is designed to ignite your imagination and keep you turning pages. Discover hidden gems, bestselling hits, and hand-picked recommendations from every genre. Let us help you find your next favorite read—dive into the world of literature with ZapNovel, where the perfect Webnovel is just a click away. Happy reading!</p>
+        </div>
+    </section>
+
+    <section class="book-section">
+        <div class="container">
+            <h2>Featured Webnovels</h2>
+            <div class="book-list">
+                <div class="book-item" onclick="openModal('synopsis1')">
+                    <img src="../mywebsite/images/LOTM.jpg" alt="Book 1">
+                    <h3>Lord of the Mysteries</h3>
+                    <p>Cuttlefish That Loves Diving</p>
+                </div>
+                <div class="book-item" onclick="openModal('synopsis2')">
+                    <img src="../mywebsite/images/ORV.webp" alt="Book 2">
+                    <h3>Omniscient Reader's Viewpoint</h3>
+                    <p>Sing Shong</p>
+                </div>
+                <div class="book-item" onclick="openModal('synopsis3')">
+                    <img src="../mywebsite/images/NanoMachine.jpg" alt="Book 3">
+                    <h3>Nano Machine</h3>
+                    <p>Hangjung Wolya</p>
+                </div>
+                <div class="book-item" onclick="openModal('synopsis4')">
+                    <img src="../mywebsite/images/ShadowSlave.jpg" alt="Book 4">
+                    <h3>Shadow Slave</h3>
+                    <p>Guiltythree</p>
+                </div>
+                <div class="book-item" onclick="openModal('synopsis5')">
+                    <img src="../mywebsite/images/Reverend Insanity.jpg" alt="Book 5">
+                    <h3>Reverend Insanity</h3>
+                    <p>Gu Zhen Ren</p>
+                </div>
+                <div class="book-item" onclick="openModal('synopsis6')">
+                    <img src="../mywebsite/images/TBATE.jpg" alt="Book 6">
+                    <h3>The Beginning After The End</h3>
+                    <p>TurtleMe</p>
+                </div>
+                <div class="book-item" onclick="openModal('synopsis7')">
+                    <img src="../mywebsite/images/TSDE.jpg" alt="Book 7">
+                    <h3>The Steward Demonic Emperor</h3>
+                    <p>Nightingale</p>
+                </div>
+                <div class="book-item" onclick="openModal('synopsis8')">
+                    <img src="../mywebsite/images/Mount hua.webp" alt="Book 8">
+                    <h3>Return of the Mount Hua Sect</h3>
+                    <p>Biga</p>
+                </div>
+                <div class="book-item" onclick="openModal('synopsis9')">
+                    <img src="../mywebsite/images/Supreme Magus.jpg" alt="Book 9">
+                    <h3>Supreme Magus</h3>
+                    <p>Legion20</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Book Synopsis -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-body">
+                <!-- Content will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2024 ZapNovel. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
